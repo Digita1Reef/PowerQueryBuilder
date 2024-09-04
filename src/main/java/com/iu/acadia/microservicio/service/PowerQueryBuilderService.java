@@ -2,7 +2,9 @@ package com.iu.acadia.microservicio.service;
 
 import com.iu.acadia.microservicio.utils.MongoUtils;
 import com.mongodb.client.MongoClient;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class PowerQueryBuilderService {
     private final MongoUtils mongoUtils;
 
